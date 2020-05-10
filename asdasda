@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
 <!DOCTYPE foo [
-<!ELEMENT foo (#ANY)>
 <!ENTITY ac "<data>test hello</data>">]>
 <foo><result>&ac;</result></foo>
