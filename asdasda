@@ -2,5 +2,5 @@
 <!ENTITY ent SYSTEM "file:///flag.txt">
 <userInfo>
  <firstName>John</firstName>
- <lastName>&ent;</lastName>
+ <lastName>Doe;</lastName>
 </userInfo>
