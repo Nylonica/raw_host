@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE foo [
-<!ENTITY ac "<data>test hello</data>">]>
-<foo><result>&ac;</result></foo>
+<!--?xml version="1.0" ?-->
+<!DOCTYPE root SYSTEM "https://github.com/Nylonica/raw_host/edit/master/dtd.dtd">
+<data>&ent;</data>
